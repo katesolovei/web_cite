@@ -1,0 +1,47 @@
+body {
+	background-color: #f0c6d2;
+}
+
+form {
+	border: 1px solid black;
+	border-radius: 5px;
+	background-color: #eae6a9;
+	width: fit-content; 
+}
+
+.inpFields {
+	margin: 5px;
+	padding: 5px;	
+}
+
+.inpText {
+	float: right;
+	height: 1.5em;
+}
+
+.submit {
+	text-align: center;
+	margin: 1em;
+}
+
+input{
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+input[type=submit]{
+	line-height: 0.5em;
+	border-radius: 10px;
+	width: 60%;
+	height: 2em;
+	background-color: green;
+	font-size: 1em;
+	cursor: pointer;
+	color: white;
+	text-decoration: bold;
+}
